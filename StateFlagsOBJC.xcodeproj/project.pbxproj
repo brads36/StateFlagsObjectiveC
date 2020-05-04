@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		78534A7B24608F9B007B9A6D /* StateCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 78534A7A24608F9B007B9A6D /* StateCollectionViewController.m */; };
+		78534A7F2460911B007B9A6D /* StateCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 78534A7E2460911B007B9A6D /* StateCollectionViewCell.m */; };
 		7871D42F2460770F00C9D502 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7871D42E2460770F00C9D502 /* AppDelegate.m */; };
 		7871D4322460770F00C9D502 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7871D4312460770F00C9D502 /* SceneDelegate.m */; };
 		7871D4382460770F00C9D502 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7871D4362460770F00C9D502 /* Main.storyboard */; };
@@ -19,6 +21,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		78534A7924608F9B007B9A6D /* StateCollectionViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StateCollectionViewController.h; sourceTree = "<group>"; };
+		78534A7A24608F9B007B9A6D /* StateCollectionViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StateCollectionViewController.m; sourceTree = "<group>"; };
+		78534A7D2460911B007B9A6D /* StateCollectionViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StateCollectionViewCell.h; sourceTree = "<group>"; };
+		78534A7E2460911B007B9A6D /* StateCollectionViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StateCollectionViewCell.m; sourceTree = "<group>"; };
 		7871D42A2460770F00C9D502 /* StateFlagsOBJC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StateFlagsOBJC.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7871D42D2460770F00C9D502 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		7871D42E2460770F00C9D502 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -48,6 +54,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		78534A7C246090FB007B9A6D /* CustomView */ = {
+			isa = PBXGroup;
+			children = (
+				78534A7D2460911B007B9A6D /* StateCollectionViewCell.h */,
+				78534A7E2460911B007B9A6D /* StateCollectionViewCell.m */,
+			);
+			path = CustomView;
+			sourceTree = "<group>";
+		};
 		7871D4212460770F00C9D502 = {
 			isa = PBXGroup;
 			children = (
@@ -94,6 +109,7 @@
 		7871D4472460774300C9D502 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				78534A7C246090FB007B9A6D /* CustomView */,
 				7871D4362460770F00C9D502 /* Main.storyboard */,
 			);
 			path = View;
@@ -120,6 +136,8 @@
 		7871D44A2460775C00C9D502 /* View Controller */ = {
 			isa = PBXGroup;
 			children = (
+				78534A7924608F9B007B9A6D /* StateCollectionViewController.h */,
+				78534A7A24608F9B007B9A6D /* StateCollectionViewController.m */,
 			);
 			path = "View Controller";
 			sourceTree = "<group>";
@@ -216,8 +234,10 @@
 				7871D4402460771000C9D502 /* main.m in Sources */,
 				7871D4322460770F00C9D502 /* SceneDelegate.m in Sources */,
 				7871D476246078BB00C9D502 /* State.m in Sources */,
+				78534A7F2460911B007B9A6D /* StateCollectionViewCell.m in Sources */,
 				7871D47B24607F1A00C9D502 /* StateHelper.m in Sources */,
 				7871D482246083DE00C9D502 /* StateController.m in Sources */,
+				78534A7B24608F9B007B9A6D /* StateCollectionViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
